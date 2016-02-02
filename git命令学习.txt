@@ -7,6 +7,9 @@ git diff
 git commit -m "这里是备注"
 git log 
 git log --pretty=oneline
-git reset --hard HEAD^ 
+git reset --hard HEAD^  #用HEAD表示当前版本 HEAD^表示上一版本，依次类推
 git reset --hard HEAD^^ #版本回退命令
-
+git reset --hard HEAD~100 #往前推100个版本
+git reset --hard xxxxxx  #xxxxxx 为版本号，可用Tab补全
+git check checkout -- readme.txt #撤销针对工作区文件修改
+git reset HEAD readme.txt #撤销暂存区文件修改
