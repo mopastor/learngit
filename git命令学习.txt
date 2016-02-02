@@ -1,0 +1,12 @@
+git config --global user.name "pastor"
+git config --global user.email "18721350130@163.com"
+git init
+git add readme.txt
+git status
+git diff
+git commit -m "这里是备注"
+git log 
+git log --pretty=oneline
+git reset --hard HEAD^ 
+git reset --hard HEAD^^ #版本回退命令
+
