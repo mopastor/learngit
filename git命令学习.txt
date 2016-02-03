@@ -16,3 +16,9 @@ git reset HEAD readme.txt #撤销暂存区文件修改
 
 git checkout -b dev = git branch dev + git checkout dev 
 #添加参数 -b 为创建并切换分支，相当于后面两句命令
+
+git branch #查看分支
+git branch <name> #创建分支
+git checkout <name> #切换分支
+git merge <name> #合并<name> 到当前分支
+git branch -d <name> # 删除某分支
