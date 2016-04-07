@@ -1,0 +1,5 @@
+安装后 MySQL执行文件位于 C:\\program files\MySQl中
+
+命令行切换至执行文件位置
+运行 mysql -u root -p 输入密码后进入MySQL命令行模式
+
