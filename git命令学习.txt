@@ -1,10 +1,15 @@
 git config --global user.name "pastor"
-git config --global user.email "18721350130@163.com"
-git init
-git add readme.txt
+git config --global user.email "18721350130@163.com" #git仓库本机配置  #--golbal为全局配置，代表本机所有git仓库都用此配置
+
+
+git init  #在当前目录下建立git仓库
+
+
+git add readme.txt # The First
 git status
 git diff
-git commit -m "这里是备注"
+git commit -m "这里是备注" #The Second
+
 git log 
 git log --pretty=oneline
 git reset --hard HEAD^  #用HEAD表示当前版本 HEAD^表示上一版本，依次类推
@@ -13,7 +18,7 @@ git reset --hard HEAD~100 #往前推100个版本
 git reset --hard xxxxxx  #xxxxxx 为版本号，可用Tab补全
 git check checkout -- readme.txt #撤销针对工作区文件修改
 git reset HEAD readme.txt #撤销暂存区文件修改
-
+git push -u origin master #推送至远程仓库
 git checkout -b dev = git branch dev + git checkout dev 
 #添加参数 -b 为创建并切换分支，相当于后面两句命令
 
